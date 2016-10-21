@@ -1,11 +1,14 @@
 <?php
 /**
  * @author oshine <oyjqdlp@126.com>
+ * @link https://github.com/cloudbar/cloud.yii
+ * @see https://github.com/cloudbar/cloud.yii/wiki
  */
 namespace cloud;
 
 use CException;
 use cloud\core\components\Engine;
+use cloud\core\engines\Io;
 use cloud\core\engines\Local;
 
 class Cloud extends \Yii
@@ -130,6 +133,14 @@ class Cloud extends \Yii
 
         return self::$_engine;
     }
+
+    /**
+     * @return Io
+     */
+    public static function io(){
+        return self::engine()->io();
+    }
+
 
 
     /**

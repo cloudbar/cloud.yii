@@ -4,7 +4,9 @@
  * 性能检测组件，可用于生成模式检测性能
  *
  * @package cloud.core.components
- * @author oshine <oshine.ouyang@da-mai.com>
+ * @author oShine <oyjqdlp@126.com>
+ * @link https://github.com/cloudbar/cloud.yii
+ * @see https://github.com/cloudbar/cloud.yii/wiki
  */
 
 namespace cloud\core\components;

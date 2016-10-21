@@ -4,8 +4,9 @@
  * Cloud缓存处理类
  *
  * @package cloud.core.components
- * @author oshine <oshine.ouyang@da-mai.com>
- * @version $Id$
+ * @author oShine <oyjqdlp@126.com>
+ * @link https://github.com/cloudbar/cloud.yii
+ * @see https://github.com/cloudbar/cloud.yii/wiki
  */
 
 namespace cloud\core\components;

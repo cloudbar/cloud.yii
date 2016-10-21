@@ -2,7 +2,9 @@
 /**
  * 继承CPhpMessageSource的消息来源类。
  * @package cloud.core.components
- * @author oshine <oshine.ouyang@da-mai.com>
+ * @author oShine <oyjqdlp@126.com>
+ * @link https://github.com/cloudbar/cloud.yii
+ * @see https://github.com/cloudbar/cloud.yii/wiki
  */
 
 namespace cloud\core\components;

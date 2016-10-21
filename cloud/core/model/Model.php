@@ -5,7 +5,10 @@
  * 
  * @package cloud.core.model
  * @version $Id$
- * @author oShine
+ * @author oShine <oyjqdlp@126.com>
+ * @link https://github.com/cloudbar/cloud.yii
+ * @see https://github.com/cloudbar/cloud.yii/wiki
+ *
  */
 
 namespace cloud\core\model;

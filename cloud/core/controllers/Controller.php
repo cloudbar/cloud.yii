@@ -2,7 +2,9 @@
 /**
  * 全局控制器必须继承自CController
  * @package cloud.core.controllers
- * @author oshine <oshine.ouyang@da-mai.com>
+ * @author oShine <oyjqdlp@126.com>
+ * @link https://github.com/cloudbar/cloud.yii
+ * @see https://github.com/cloudbar/cloud.yii/wiki
  */
 
 namespace cloud\core\controllers;

@@ -4,8 +4,9 @@
  * 继承到 CAssetManager的 Cloud 资源管理文件.
  *
  * @package cloud.core.components
- * @author oShine <oshine.ouyang@da-mai.com>
- * @version $Id: AssetManager.php -1   $
+ * @author oShine <oyjqdlp@126.com>
+ * @link https://github.com/cloudbar/cloud.yii
+ * @see https://github.com/cloudbar/cloud.yii/wiki
  */
 namespace cloud\core\components;
 

@@ -2,7 +2,9 @@
 /**
  * Application,模块及分发控制器
  * @package cloud.core.components
- * @author oShine <oshine.ouyang@da-mai.com>
+ * @author oShine <oyjqdlp@126.com>
+ * @link https://github.com/cloudbar/cloud.yii
+ * @see https://github.com/cloudbar/cloud.yii/wiki
  */
 
 namespace cloud\core\components;

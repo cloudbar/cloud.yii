@@ -9,6 +9,7 @@
 
 namespace cloud\core\components;
 
+use cloud\core\engines\Io;
 use cloud\core\engines\Local;
 
 abstract class Engine {
@@ -56,6 +57,7 @@ abstract class Engine {
 
     /**
      * io 接口
+     * @return Io
      */
     abstract public function io();
 }

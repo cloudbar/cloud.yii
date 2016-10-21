@@ -3,9 +3,11 @@
 /**
  * Cloud本地环境引擎
  *
- * @package application.core.engines
+ * @package cloud.core.engines
  * @author oshine <oyjqdlp@126.com>
  * @version $Id:
+ * @link https://github.com/cloudbar/cloud.yii
+ * @see https://github.com/cloudbar/cloud.yii/wiki
  */
 
 namespace cloud\core\engines;
