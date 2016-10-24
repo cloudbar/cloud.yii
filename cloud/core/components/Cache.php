@@ -56,7 +56,7 @@ class Cache extends CApplicationComponent {
             'xcache' => function_exists( 'xcache_get' ),
             'wincache' => extension_loaded( 'wincache' ),
             'db' => 1,
-            'file' => LOCAL ? 1 : 0,
+            'file' => 1,
             'memcache' => extension_loaded( 'memcache' ),
             'redis' => extension_loaded( 'redis' ),
             'shmop' => extension_loaded( 'shmop' ),

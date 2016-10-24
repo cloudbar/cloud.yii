@@ -78,6 +78,9 @@ return array(
                 'level' => 1,
             )
         ),
+        'errorHandler' => array(
+            'errorAction' => 'main/default/error',
+        ),
 
     ),
     'params' => array(

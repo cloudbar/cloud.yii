@@ -107,6 +107,8 @@ class ExModel extends Model
     }
 
     /**
+     * @deprecated
+     * @see self::fetchAll() method
      * @param mixed $condition query condition or criteria.
      * @param array $params parameters to be bound to an SQL statement.
      * @return array list of active records satisfying the specified condition. An empty array is returned if none is found.
