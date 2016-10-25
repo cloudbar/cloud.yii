@@ -23,8 +23,90 @@
      
      |- web  *web入口文件目录*
      
+2. 配置文件, 正式环境存在 “data/deploy” 文件.
+ 
+	* 测试环境配置文件：data/development/config.php
+	
+	~~~
+	<?php 
+	return array(
+   
+	    'env' => array(
+	        'language' => 'zh_cn',
+	        'theme' => 'default'
+	    ),
+	  
+	    'databases'=>array(
+	
+	        'db' => array(
+	            'host' => 'localhost',
+	            'port' => '3306',
+	            'dbname' => 'test',
+	            'username' => 'root',
+	            'password' => '',
+	            'tableprefix' => '',
+	            'charset' => 'utf8'
+	        ),
+	
+	    ),
+	
+	    'components' => array(
+	        // URL资源管理器
+	        'urlManager' => array(
+	            'urlFormat' => 'get',
+	            'caseSensitive' => false,
+	            'showScriptName' => true,
+	            'rules' => array(
+	                '<module:\w+>/<controller:\w+>/<action:\w+>' => '<module>/<controller>/<action>', 
+	            )
+	        ),
+	    )
 
-2. 创建一个项目,入口文件: web/index.php
+	);
+	~~~
+	
+	* 正式环境配置文件：data/production/config.php
+	
+	~~~
+	<?php 
+	return array(
+   
+	    'env' => array(
+	        'language' => 'zh_cn',
+	        'theme' => 'default'
+	    ),
+	  
+	    'databases'=>array(
+	
+	        'db' => array(
+	            'host' => 'localhost',
+	            'port' => '3306',
+	            'dbname' => 'test',
+	            'username' => 'root',
+	            'password' => '',
+	            'tableprefix' => '',
+	            'charset' => 'utf8'
+	        ),
+	
+	    ),
+	
+	    'components' => array(
+	        // URL资源管理器
+	        'urlManager' => array(
+	            'urlFormat' => 'path',
+	            'caseSensitive' => false,
+	            'showScriptName' => false,
+	            'rules' => array(
+	                '<module:\w+>/<controller:\w+>/<action:\w+>' => '<module>/<controller>/<action>', 
+	            )
+	        ),
+	    )
+
+	);
+	~~~
+	
+
+3. 创建一个项目,入口文件: web/index.php
 
 	~~~
 	<?php 
@@ -36,7 +118,7 @@
 	exit;   		  
 	~~~
 
-3. 创建一个module,案例main.
+4. 创建一个module,案例main.
 
 	* 创建 system/modules/main/MainModule.php
 	
